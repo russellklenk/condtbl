@@ -1,0 +1,9 @@
+Current settings build using VS2017. You can also build using 2013 or 2015 by editing the VSVERSION in setenv.cmd.
+
+To build, open a command prompt and cd to the condtbl directory. 
+Type setenv to run setenv.cmd. This sets the MSVC environment variables.
+Then type build to run build.cmd. This compiles the application in the build directory.
+You can also type 'build debug' to build a debug version.
+
+The only platform-specific bit is the timing code, which currently uses Win32 QueryPerformanceCounter.
+
